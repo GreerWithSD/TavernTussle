@@ -242,7 +242,7 @@ function getCardDetails(cardName) {
 // Dummy function to get card image
 function getCardImage(cardName) {
   const formattedCardName = cardName.toLowerCase().replace(/\s+/g, '%20');
-    return `/Cards/${formattedCardName}.png`; 
+    return `'https://greerwithsd.github.io/TavernTussle/Cards/${formattedCardName}.png`; 
 }
 
 getUserCards(username1);
