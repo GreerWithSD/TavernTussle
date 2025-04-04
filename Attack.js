@@ -36,7 +36,7 @@ function getCardImage(cardName) {
 let theData;
 // Process and assign cards
 (async () => {
-    const cardsData = await loadCardsFromFile("https://greerwithsd.github.io/TavernTussle/cardsData.json");
+    const cardsData = await loadCardsFromFile("https://greerwithsd.github.io/TavernTussle/CardsData.json");
     theData = cardsData;
     if (!cardsData || !cardsData.cards) {
         console.error("Card data not found.");
