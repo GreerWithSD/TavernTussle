@@ -26,7 +26,7 @@ const db = getDatabase(app);
 function logout() {
     localStorage.removeItem("userData");
      localStorage.clear();
-    window.location.href = "/login.html";
+    window.location.href ='https://greerwithsd.github.io/TavernTussle/Login.html';
 }
 
 // Initialize the logout event
@@ -52,7 +52,7 @@ export function Tussle() {
         alert("Please fill any empty slots in your deck first");
     } else {
         updateUserDeck(username1, UserDeckM);
-        window.location.href = "Players.html";
+        window.location.href = 'https://greerwithsd.github.io/TavernTussle/Players.html';
     }
 }
 
