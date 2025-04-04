@@ -68,7 +68,7 @@ function authenticateUser(username, password) {
                 localStorage.setItem("userData", JSON.stringify(userData));
 
                 // Redirect to Main.html
-                window.location.href = "Main.html"; // Replace with your desired page
+                window.location.href = "https://greerwithsd.github.io/TavernTussle/Main.html"; // Replace with your desired page
                 userFound = true;
                 break;
             }
