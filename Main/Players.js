@@ -39,7 +39,7 @@ document.getElementById('1').addEventListener('click', () => {
         // or change the window location (assuming this is a SPA in a web app)
 
         // Example of opening a new form (e.g., BattleForm) 
-        window.location.href = 'Attack.html'; // Replace with your desired form URL
+        window.location.href = 'https://greerwithsd.github.io/TavernTussle/Main/Attack.html'; // Replace with your desired form URL
 
         // OR if you're showing a modal, just toggle its visibility:
         // document.getElementById('battleForm').style.display = 'block';  // Assuming this is your modal or hidden form
@@ -125,7 +125,7 @@ onValue(usersRef, (snapshot) => {
 
 document.getElementById('2').addEventListener('click', function() {
     // Redirect to main.html
-    window.location.href = 'https://greerwithsd.github.io/TavernTussle/Main.html';
+    window.location.href = 'https://greerwithsd.github.io/TavernTussle/Main/Main.html';
 });
 
 
