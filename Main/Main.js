@@ -242,7 +242,7 @@ function getCardDetails(cardName) {
 // Dummy function to get card image
 function getCardImage(cardName) {
     const encodedCardName = encodeURIComponent(cardName);  // Encode the card name properly
-    return `https://raw.githubusercontent.com/GreerWithSD/TavernTussle/Main/Cards/${encodedCardName}.png`;
+    return `Cards/${encodedCardName}.png`;
 }
 
 
